@@ -1,21 +1,3 @@
-.btn{
-    padding: 0.5rem 1rem;
-    background: #006669;
-    color: white;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-}
-
-.btn-big{
-    padding: 0.7rem 1.3rem;
-    line-height: 1.3rem;
-}
-
-.btn:hover{
-    color: white !important;
-    background: #005255;
-}
-
 footer{
     background: #303036;
     color: #d3d3d3;
@@ -52,12 +34,12 @@ footer .footer-content .about .socials a{
     border: 1px solid gray;
     width: 45px;
     height: 41px;
-    padding-top: 5px;
+    padding-top: 8px;
     margin-right: 5px;
     text-align: center;
     display: inline-block;
     font-size: 1.3em;
-    border-radius: 5pxs;
+    border-radius: 7px;
     transition: all 0.3s;
 }
 
@@ -86,6 +68,12 @@ footer .footer-content .contact-form .contact-input{
     line-height: 1.5rem;
     padding: 0.9rem 1.4rem;
     border: none;
+    border-radius: 7px;
+}
+
+footer textarea {
+    height: 120px;
+    resize: none;
 }
 
 footer .footer-content .contact-form .contact-input:focus{
@@ -106,4 +94,44 @@ footer .footer-bottom{
     bottom: 0px;
     left: 0px;
     padding-top: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer .clerfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+footer .btn{
+    padding: 0.5rem 1rem;
+    background: #006669;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+footer .btn-big{
+    padding: 0.7rem 1.3rem;
+    line-height: 1.3rem;
+}
+
+footer .btn:hover{
+    color: white !important;
+    background: #005255;
+}
+
+footer .text-input{
+    padding: 0.7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    color: #444444;
+    line-height: 1.2rem;
 }

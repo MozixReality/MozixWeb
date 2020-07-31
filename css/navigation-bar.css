@@ -1,15 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style-type: none;
-    box-sizing: border-box;
-}
-
-body{
-    font-family: "微軟正黑體";
-}
-
 nav{
     background-color: cadetblue;
     color: rgb(2, 47, 99);
@@ -28,30 +16,33 @@ label.logo{
 nav label{
     line-height: 80px;
     color: rgb(2, 47, 99);
-    font-size: 25px;
+    font-size: 30px;
+    font-family: 'Candal', serif;
 }
 
 nav ul{
     float: right;
     margin-right: 20px;
-    
 }
 
 nav ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+    font-size: 24px;
+    font-family: 'Microsoft JhengHei';
 }
 
 nav ul li a{
     color: rgb(2, 47, 99);
-    font-size: 20px;
     text-transform: uppercase;
 }
 
-a:hover{
+nav ul li a:hover{
+    display: block;
     color: white;
-    transition: 0.4s;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
 .logo{
