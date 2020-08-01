@@ -13,6 +13,7 @@ footer .footer-content{
 footer .footer-content .footer-section{
     flex: 1;
     padding: 25px;
+    border: 1px solid red;
 }
 
 footer .footer-content h1,
@@ -50,6 +51,8 @@ footer .footer-content .about .socials a:hover{
 }
 
 footer .footer-content .links ul a{
+    border: 1px solid red;
+    width: 20%;
     display: block;
     margin-bottom: 10px;
     font-size: 1.2em;

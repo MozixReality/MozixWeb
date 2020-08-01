@@ -1,0 +1,23 @@
+body .main-content{
+    min-height: 100%;
+    text-align: center;
+    display: flex;
+    /*border: 1px solid red;*/
+}
+
+body .main-content .main-section{
+    flex: 1;
+    padding: 25px;
+    border: 1px solid red;
+}
+
+body .main-content img{
+    height: auto;
+    width: auto;
+}
+
+body .main-content .main-section .picker{
+    height: 122px;
+    border: 1px solid red;
+}
+
