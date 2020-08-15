@@ -1,4 +1,14 @@
 <!doctype html>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#test").click(function(){
+      delete window.alert;
+      alert("hihi");
+    });
+  });
+</script>
+
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -10,6 +20,7 @@
     <link rel="stylesheet" href="css/navigation-bar.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/picker.css">
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
     <title>MZ Web</title>
   </head>
@@ -30,7 +41,12 @@
         <h1>Cloth</h1>
         <img name="picgg" src="http://www.pcokey.com.tw/customer/133/shopping/pic_photo/14987305210.jpg">
         <div class="picker">
-          
+          <div class="dot-container">
+            <button id="test"> test </button>
+            <div class="dot" id="red"></div>
+            <div class="dot" id="blue"></div>
+            <div class="dot" id="green"></div>
+          </div>
         </div>
       </div>
       <div class="main-section 2">

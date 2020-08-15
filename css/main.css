@@ -16,8 +16,8 @@ body .main-content img{
     width: auto;
 }
 
-body .main-content .main-section .picker{
-    height: 122px;
-    border: 1px solid red;
+.test{
+    width: 400px;
+    height: 120px;
+    margin: auto;
 }
-
