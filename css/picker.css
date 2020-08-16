@@ -6,19 +6,32 @@ body .picker{
 }
 
 .dot-container{
-    width: 50%;
+    width: fit-content;
+    margin: auto;
     border: 1px solid red;
-    margin: 0px auto;
     align-items: center;
     display: flex;
 }
 
 .dot-container .dot{
     flex: 1;
-    padding: 25px;
-    margin: 25px;
-    border: 1px solid red;
-    width: 50px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid red;
+    width: auto;
     height: 50px;
-}*/
+    white-space: nowrap;
+    border-radius: 50%;
+}
 
+#black{
+    background-color: black;
+}
+
+#white{
+    background-color: white;
+}
+
+#gray{
+    background-color: #C0C0C0;
+}

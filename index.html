@@ -1,14 +1,5 @@
 <!doctype html>
 
-<script type="text/javascript">
-  $(document).ready(function(){
-    $("#test").click(function(){
-      delete window.alert;
-      alert("hihi");
-    });
-  });
-</script>
-
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -22,6 +13,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/picker.css">
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.css">
+    <script src="js/jquery-3.5.1.js"></script>
     <title>MZ Web</title>
   </head>
   <body>
@@ -37,20 +29,15 @@
       </ul>
     </nav>
     <div class="main-content">
-      <div class="main-section 1">
-        <h1>Cloth</h1>
-        <img name="picgg" src="http://www.pcokey.com.tw/customer/133/shopping/pic_photo/14987305210.jpg">
-        <div class="picker">
-          <div class="dot-container">
-            <button id="test"> test </button>
-            <div class="dot" id="red"></div>
-            <div class="dot" id="blue"></div>
-            <div class="dot" id="green"></div>
-          </div>
-        </div>
-      </div>
-      <div class="main-section 2">
-        0.0
+      <h1>Cloth</h1>
+      <!-- <img name="picgg" src="http://www.pcokey.com.tw/customer/133/shopping/pic_photo/14987305210.jpg"> -->
+      <img id="cloth" src="icon/black T-shirt.jpg">
+      <div class="picker">
+        <ul class="dot-container">
+          <li class="dot" id="black"></li>
+          <li class="dot" id="white"></li>
+          <li class="dot" id="gray"></li>
+        </ul>
       </div>
     </div>
   </body>
@@ -111,3 +98,11 @@
     </div>
   </footer>
 </html>
+
+<script>
+  $(document).ready(function(){
+    $(".dot").click(function(){
+      $("#cloth").attr("src","icon/" + this.id + " T-shirt.jpg");
+    });
+  });
+</script>
