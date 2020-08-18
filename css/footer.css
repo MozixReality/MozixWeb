@@ -142,7 +142,7 @@ footer .text-input{
 
 @media (max-width: 945px){
     footer{
-        min-height: 870px;
+        height: 870px;
     }
 
     footer .footer-content{
