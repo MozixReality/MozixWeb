@@ -139,3 +139,14 @@ footer .text-input{
     color: #444444;
     line-height: 1.2rem;
 }
+
+@media (max-width: 945px){
+    footer{
+        min-height: 870px;
+    }
+
+    footer .footer-content{
+        display: block;
+        width: 100%;
+    }
+}
