@@ -149,4 +149,8 @@ footer .text-input{
         display: block;
         width: 100%;
     }
+
+    footer .footer-content .footer-section{
+        display: block;
+    }
 }
