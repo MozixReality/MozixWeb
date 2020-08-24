@@ -11,10 +11,12 @@
 .main-content h1{
     margin: 20px;
     font-size: 40px;
+    font-weight: bolder;
 }
 
 .main-content h2{
     font-size: 30px;
+    font-weight: bolder;
 }
 
 .main-section{
@@ -37,4 +39,15 @@
 
 .main-detail img:hover{
     transform: scale(1.2, 1.2);
+}
+
+@media (max-width: 945px){
+    .main-section{
+        display: block;
+        width: 100%;
+    }
+
+    .main-detail{
+        display: block;
+    }
 }

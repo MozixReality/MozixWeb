@@ -54,6 +54,12 @@ nav ul li a{
     padding: 10px 20px;
     color: black;
     text-transform: uppercase;
+    /*以下高能*/
+    transition-timing-function: ease-out;
+    -webkit-transition-property: background-color, color;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-property: background-color, color;
+    -o-transition-duration: 0.7s;
 }
 
 nav ul li a.active,
@@ -61,7 +67,15 @@ nav ul li a:hover{
     color: white;
     background-color: black;
     border-radius: 4px;
-    transition: 0.4s;
+    transition: 0.3s;
+    /*以下高能*/
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    -webkit-transition-property: background-color, color;
+    -webkit-transition-duration: 0.4s;
+    -o-transition-property: background-color, color;
+    -o-transition-duration: 0.3s;
 }
 
 @media (max-width: 945px){
