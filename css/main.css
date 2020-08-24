@@ -1,11 +1,40 @@
-body .main-content{
-    min-height: 100%;
-    max-width: 100%;
-    text-align: center;
+.main-content{
+    width: 100%;
+    max-width: 1280px;
+    padding-top: 48px;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    font-family: '微軟正黑體';
 }
 
-#cloth{
-    max-width: 100%;
-    height: auto;
-    box-sizing: padding-box;
+.main-content h1{
+    margin: 20px;
+    font-size: 40px;
+}
+
+.main-content h2{
+    font-size: 30px;
+}
+
+.main-section{
+    display: flex;
+}
+
+.main-detail{
+    flex: 1;
+    padding: 30px 20px;
+    overflow: hidden;
+    font-size: 20px;
+    color: #5c5b5b;
+    margin: 10px;
+}
+
+.main-detail img{
+    transform: scale(1, 1);
+    transition: all 1s ease-out;
+}
+
+.main-detail img:hover{
+    transform: scale(1.2, 1.2);
 }
